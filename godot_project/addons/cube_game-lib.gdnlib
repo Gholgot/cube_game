@@ -1,0 +1,18 @@
+[general]
+
+singleton=false
+load_once=true
+symbol_prefix="godot_"
+reloadable=true
+
+[entry]
+
+OSX.64="res://addons/build/debug/libcube_game_lib.dylib"
+OSX.32="res://addons/build/debug/libcube_game_lib.dylib"
+Windows.64="res://addons/build/debug/libcube_game_lib.dll"
+Windows.32="res://addons/build/debug/libcube_game_lib.dll"
+
+[dependencies]
+
+OSX.64=[  ]
+OSX.32=[  ]

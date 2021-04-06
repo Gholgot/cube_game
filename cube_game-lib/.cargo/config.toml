@@ -1,0 +1,2 @@
+[build]
+target-dir = "../godot_project/addons/build"         # path of where to place all generated artifacts
