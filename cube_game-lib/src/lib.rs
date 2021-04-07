@@ -1,23 +1,11 @@
 use gdnative::prelude::*;
 
-#[derive(NativeClass)]
-#[inherit(Node)]
-struct Main;
-
-#[gdnative::methods]
-impl Main {
-    fn new(_owner: &Node) -> Self {
-        Main
-    }
-
-    #[export]
-    fn _ready(&self, _owner: &Node) {
-        godot_print!("hello, world.")
-    }
-}
+mod player;
+mod terrain;
 
 fn init(handle: InitHandle) {
-    handle.add_class::<Main>();
+    handle.add_class::<player::Player>();
+    handle.add_class::<terrain::Terrain>();
 }
 
 godot_init!(init);
