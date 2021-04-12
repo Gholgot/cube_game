@@ -1,0 +1,16 @@
+[gd_resource type="NativeScript" load_steps=2 format=2]
+
+[sub_resource type="GDNativeLibrary" id=1]
+entry/OSX.64 = "res://addons/build/debug/libcube_game_lib.dylib"
+entry/OSX.32 = "res://addons/build/debug/libcube_game_lib.dylib"
+entry/Windows.64 = "res://addons/build/debug/libcube_game_lib.dll"
+entry/Windows.32 = "res://addons/build/debug/libcube_game_lib.dll"
+dependency/OSX.64 = [  ]
+dependency/OSX.32 = [  ]
+dependency/Windows.64 = [  ]
+dependency/Windows.32 = [  ]
+
+[resource]
+resource_name = "terrain"
+class_name = "Terrain"
+library = SubResource( 1 )
