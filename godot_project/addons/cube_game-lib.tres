@@ -3,5 +3,9 @@
 [resource]
 entry/OSX.64 = "res://addons/build/debug/libcube_game_lib.dylib"
 entry/OSX.32 = "res://addons/build/debug/libcube_game_lib.dylib"
+entry/Windows.64 = "res://addons/build/debug/cube_game_lib.dll"
+entry/Windows.32 = "res://addons/build/debug/cube_game_lib.dll"
 dependency/OSX.64 = [  ]
 dependency/OSX.32 = [  ]
+dependency/Windows.64 = [  ]
+dependency/Windows.32 = [  ]
